@@ -37,7 +37,7 @@
     justify-content: space-around;
     align-items: center;
   }
-  /*
+  
   .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -62,14 +62,14 @@
     align-items: center;
     justify-content: center;
   }
-  */
-  /*
-  .hero-image {
+  
+  
+  .right-header {
     max-width: 670px;
     height: auto;
   }
   
-  .content-left {
+  .body {
     width: 30%;
     margin-right: 50px;
   }
@@ -137,21 +137,21 @@
     margin-bottom: 50px;
   }
   */
-   /* 
-  .quotation {
+   
+  .body-quote {
     font-family: 'Roboto Light Italic';
     font-size: 36px;
     color: #1f2937;
     text-align: justify;
   }
   
-  .attribution {
+  .quote {
     font-family: 'Roboto Black';
     margin-left: 500px;
     font-size: 18px;
   }
   
-  .cta-wrapper {
+  .sign-up-btn {
     background: #3882f6;
     color: #f9faf8;
     display: flex;
@@ -167,7 +167,7 @@
     color: #e5e7eb;
   }
   
-  .cta-outline {
+  .footer-right {
     font-family: 'Roboto Black';
     margin: 10px 0;
     padding: 10px 30px;
@@ -183,6 +183,6 @@
     background: #1f2937;
     color: #f9faf8;
     text-align: center;
-    margin-top: 50px;
-    padding: 50px 0;
-  } */
+    padding: 40px 0;
+    margin-top: 40px;
+  } 
