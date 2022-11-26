@@ -91,14 +91,14 @@
     cursor: pointer;
   }
   
- .body {
-    font-size: 36px;
+ .information {
+    font-size: 32px;
     color: #1f2937;
     text-align: center;
     margin-top: 50px;
   }
   
-  .information {
+ .body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,8 +111,8 @@
   }
   
   .content {
-    height: 125px;
     width: 125px;
+    height: 125px;
     border: 3px solid #3882f6;
     border-radius: 8px;
   }
