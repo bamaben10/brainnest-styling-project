@@ -37,16 +37,7 @@
     font-size: 24px;
 }
   
-  ul {
-    display: flex;
-    list-style-type: none;
-  }
-  
-  ul li  {
-    color: #e5e7eb;
-    padding: 0 22px;
-    font-size: 15px;
-  }
+
   
   .upper-body {
     background: #1f2937;
