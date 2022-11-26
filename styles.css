@@ -2,21 +2,15 @@
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Regular.ttf) format('truetype');
   }
-  
-  @font-face {
-    font-family: 'Roboto Black';
-    src: url(../fonts/Roboto-Black.ttf) format('truetype');
-  }
-  
+
   @font-face {
     font-family: 'Roboto Light Italic';
     src: url(../fonts/Roboto-LightItalic.ttf) format('truetype');
   }
   
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  @font-face {
+    font-family: 'Roboto Black';
+    src: url(../fonts/Roboto-Black.ttf) format('truetype');
   }
   
   body {
@@ -26,36 +20,35 @@
   } 
   
   .main-header {
-    max-width: 1280px;
+    max-width: 1200px;
     margin: auto;
   }
   
   .header {
-    height: 100px;
     background: #1f2937;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
   
   .logo {
-    font-size: 24px;
     color: #f9faf8;
-  }
+    font-size: 24px;
+}
   
   ul {
     display: flex;
     list-style-type: none;
   }
   
-  ul li a {
-    padding: 0 20px;
-    text-decoration: none;
-    font-size: 18px;
+  ul li  {
     color: #e5e7eb;
+    padding: 0 22px;
+    font-size: 15px;
   }
   
-  .hero {
+  .upper-body {
     background: #1f2937;
     display: flex;
     height: calc(100vh - 100px);
@@ -65,8 +58,8 @@
   
   
   .right-header {
-    max-width: 670px;
-    height: auto;
+      max-width: 670px;
+      height: auto;
   }
   
   .body {
@@ -74,21 +67,20 @@
     margin-right: 50px;
   }
   
-  .content-left > h1 {
+  .content-left  {
     font-family: 'Roboto Black';
     font-size: 48px;
     color: #f9faf8;
     margin-bottom: 10px;
   }
   
-  .content-left > p {
+  .left-header > p {
     font-size: 18px;
     color: #e5e7eb;
     margin: 10px 0;
   }
   
-  .cta {
-    font-family: 'Roboto Black';
+  .btn {
     margin: 10px 0;
     padding: 10px 30px;
     color: #f9faf8;
@@ -99,34 +91,33 @@
     cursor: pointer;
   }
   
-  .information-wrapper > h2 {
-    font-family: 'Roboto Black';
+ .body {
     font-size: 36px;
     color: #1f2937;
     text-align: center;
     margin-top: 50px;
   }
   
-  .info-subtext-wrapper {
+  .information {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } 
   
-  .info-subtext {
+  .basic-info {
     max-width: 125px;
     margin: 50px 20px;
     text-align: center;
   }
   
-  .box {
+  .content {
     height: 125px;
     width: 125px;
     border: 3px solid #3882f6;
     border-radius: 8px;
   }
   
-  .quotation-wrapper {
+  .body-quote {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -136,30 +127,29 @@
     padding: 0 300px;
     margin-bottom: 50px;
   }
-  */
+  
    
-  .body-quote {
+  .quote {
     font-family: 'Roboto Light Italic';
     font-size: 36px;
     color: #1f2937;
     text-align: justify;
   }
   
-  .quote {
-    font-family: 'Roboto Black';
+  .footer-right {
     margin-left: 500px;
     font-size: 18px;
-  }
+  } 
   
-  .sign-up-btn {
+  .sign-btn {
     background: #3882f6;
     color: #f9faf8;
     display: flex;
     align-items: center;
+    height: 100px;
     justify-content: space-around;
-    max-width: 1000px;
+    max-width: 700px;
     margin: auto;
-    height: 150px;
     border-radius: 8px;
   }
   
@@ -167,22 +157,20 @@
     color: #e5e7eb;
   }
   
-  .footer-right {
-    font-family: 'Roboto Black';
-    margin: 10px 0;
-    padding: 10px 30px;
-    color: #f9faf8;
-    background: transparent;
-    border: 2px solid #f9faf8;
-    border-radius: 8px;
-    outline: none;
-    cursor: pointer;
-  }
-  
   footer {
     background: #1f2937;
     color: #f9faf8;
     text-align: center;
-    padding: 40px 0;
-    margin-top: 40px;
+    margin-top: 30px;
   } 
+
+  .footer-right {
+    margin: 15px 0;
+    border: 2px solid #f9faf8;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: #f9faf8;
+    background: transparent;
+    cursor: pointer;
+  }
+  
