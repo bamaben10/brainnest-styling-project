@@ -62,17 +62,17 @@
       height: auto;
   }
   
-  .body {
-    width: 30%;
-    margin-right: 50px;
-  }
   
   .content-left  {
-    font-family: 'Roboto Black';
-    font-size: 48px;
-    color: #f9faf8;
-    margin-bottom: 10px;
-  }
+      font-family: 'Roboto Black';
+      font-size: 48px;
+      color: #f9faf8;
+      margin-bottom: 10px;
+    }
+    .body {
+      width: 30%;
+      margin-right: 50px;
+    }
   
   .left-header > p {
     font-size: 18px;
